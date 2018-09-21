@@ -8,3 +8,13 @@ if (souls > lifeRafts) {
     console.log("SOS!");
 }
 
+var weekend = ['Saturday'];
+console.log(weekend);
+weekend.push('Sunday');
+console.log(weekend);
+weekend.unshift('Friday');
+console.log(weekend);
+var day = weekend[1];
+console.log(day);
+weekend.shift();
+console.log(weekend);

@@ -53,23 +53,23 @@ if (souls > lifeRafts) {
 ### Data Structures - JS Arrays
 
 1. Create an array named `weekend` with just 'Saturday' in it
-
+var weekend = ['Saturday'];
 <br><br>
 
 2. Add 'Sunday' to the end of the `weekend` array
-
+weekend.push('Sunday');
 <br><br>
 
 3. Add 'Friday' to the front to the front of the `weekend` array
-
+weekend.unshift('Friday');
 <br><br>
 
 4. Access 'Saturday' in the array and assign to a variable named `day`
-
+var day = weekend[1];
 <br><br>
 
 5. Remove 'Friday' from the array
-
+weekend.shift();
 <br><br>
 
 ### Data Structures - JS Objects
