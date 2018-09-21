@@ -26,12 +26,12 @@ rm -r vamps/
 ### JS Variables
 
 1. Assign the string "Jack" to a variable called `captain`
-
+var captain = 'Jack';
 <br><br>
 
 
 2. Using the `captain` variable, use string concatenation to form the string "Oh Jack, my Jack!", assigning it to a variable named `phrase`
-
+var phrase = 'Oh ' + captain + ', my ' + captain + '!';
 <br><br>
 
 
