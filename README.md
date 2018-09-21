@@ -75,24 +75,27 @@ weekend.shift();
 ### Data Structures - JS Objects
 
 1. Write an object literal named `brain` having a property of `energyLevel` with a value of `10` as a number
-
+var brain = {
+    energyLevel: 10
+};
 <br><br>
 
 2. Assign the property of `energyLevel` to a variable named `energy`
-
+var energy = brain.energyLevel;
 <br><br>
 
 3. Add a `dream` property to the `brain` object that holds the string  'electric sheep'
-
+brain.dream = 'electric sheep';
 <br><br>
 
 4. Add a `dayDream` property to the `brain` object that holds the object `{ lunch: ['burger', 'beer'] }`
-
-
+brain.dayDream = {
+    lunch: ['burger', 'beer']
+}
 <br><br>
 
 5. Add another element `pudding` to the lunch array inside the `brain` object
-
+brain.dayDream.lunch.push('pudding');
 <br><br>
 
 ### JS Functions

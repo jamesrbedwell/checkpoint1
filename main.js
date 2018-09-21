@@ -18,3 +18,13 @@ var day = weekend[1];
 console.log(day);
 weekend.shift();
 console.log(weekend);
+
+var brain = {
+    energyLevel: 10
+};
+var energy = brain.energyLevel;
+brain.dream = 'electric sheep';
+brain.dayDream = {
+    lunch: ['burger', 'beer']
+}
+brain.dayDream.lunch.push('pudding');
