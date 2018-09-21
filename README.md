@@ -101,9 +101,11 @@ brain.dayDream.lunch.push('pudding');
 ### JS Functions
 
 1. Write a function to return the area of a rectangle (the product of its length and its width)
-
+function area(height, width) {
+    return height * width
+}
 <br><br>
 
 2. Invoke the function with `3` and `4` as arguments and save it to a variable named `result`
-
+var result = area(3, 4);
 <br><br>
